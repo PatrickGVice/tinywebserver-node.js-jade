@@ -2,7 +2,7 @@
 
 ## What is it?
 
-The tiny node.js webserver (hereafter, "tinywebserver") is just that, a simple webserver implemented as a single, stand-alone coffescript file, created by [Rodney Waldhoff](https://github.com/rodw/tiny-node.js-webserver). My version is a implemention of the original file, in native node javascript.
+The tiny node.js webserver (hereafter, "tinywebserver") is just that, a simple webserver implemented as a single, stand-alone coffescript file, created by [Rodney Waldhoff](https://github.com/rodw/tiny-node.js-webserver). My version is a re-implemention of the original file, in native node javascript.
 
 Origanly By design, the tinywebserver has **no external dependencies** outside of the core node.js libaries and
 of course, my version uses just one dependencies for the jade templates. (layouts are not implemented at this time)
