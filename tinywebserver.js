@@ -146,7 +146,7 @@ var serve_404 = function(request, response){
                           request.method + " of \"" + request.url +
                           "\".", error);
             console.log("html 404 page error");
-            return respond(request, response, 400);
+            return respond(request, response, 404);
         } else {
 
             // if type is jade
@@ -164,7 +164,7 @@ var serve_404 = function(request, response){
             }
 
 
-            return respond(request, response, 400,
+            return respond(request, response, 404,
                            content, content_type);
         }
     });
